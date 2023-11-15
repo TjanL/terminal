@@ -26,7 +26,7 @@ function App() {
     }
 
     return (
-        <div className="bg-black h-screen w-screen text-white">
+        <div>
             {
                 (!loggedin) ? (
                     <div className="p-2 h-screen flex flex-col justify-center">
