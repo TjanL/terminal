@@ -8,7 +8,6 @@ function App() {
     const [lines] = useState([
         { text: "Crack the enigma embedded in the code and unlock the complete details of your mission.", scramble: false },
         { text: "If decoding proves challenging, seek Agent Mojca for discreet assistance in your private chambers to uncover additional clues.", scramble: false },
-        { text: "", scramble: false },
         { text: "Lat: 123.000, Lng: 123.00", scramble: true },
     ]);
     const [index, setIndex] = useState(1);
@@ -17,7 +16,7 @@ function App() {
         if (password.toLowerCase() == "racoon") {
             setLoggedin(true);
         } else {
-            window.location.href = "https://www.google.com";
+            window.location.href = "https://www.cia.gov/";
         }
     }
 
