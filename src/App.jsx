@@ -39,7 +39,7 @@ function App() {
                 ) : (
                     (!hideMessage) ? (
                         <div className="p-2 h-screen flex flex-col justify-center">
-                            <div className="text-center text-5xl font-bold font-['Courier_New']">Access granted</div>
+                            <div className="text-center text-5xl bg-green-500 py-4 font-bold font-['Courier_New']">Access granted</div>
                         </div>
                     ) : (
                         <div className="flex flex-col p-1 text-xl font-semibold font-['Courier_New'] gap-1">
