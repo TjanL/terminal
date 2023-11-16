@@ -10,7 +10,7 @@ function App() {
         { text: "Crack the enigma embedded in the code and unlock the complete details of your mission.", scramble: false },
         { text: "If decoding proves challenging, seek Agent Mojca for discreet assistance in your private chambers to uncover additional clues.", scramble: false },
         { text: "&nbsp;", scramble: false },
-        { text: "79.529931071070629, 48.589516428482855", scramble: true },
+        { text: "46.296608748747396, 15.256283195159522", scramble: true },
     ]);
     const [index, setIndex] = useState(1);
 
