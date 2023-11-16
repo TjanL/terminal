@@ -3,13 +3,13 @@ import Scrambler from "scrambling-text";
 
 function LineScramble(props) {
     const [fired, setFired] = useState(false);
-    const [text, setText] = useState(props.text);
+    const [text, setText] = useState("");
     const scramblerRef = useRef(new Scrambler());
 
     useEffect(() => {
         if (scramblerRef.current && !fired) {
             setFired(true);
-            scramblerRef.current.scramble(text, setText, {
+            scramblerRef.current.scramble(props.text, setText, {
                 characters: Scrambler.CHARACTERS.ALPHABET,
             });
         }
